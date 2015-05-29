@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TxData>
+  <TxID size="6"/>
+  <Item size="20"/>
+  <Amount size="5" />
+  <UnitPrice size="7"/>
+</TxData>

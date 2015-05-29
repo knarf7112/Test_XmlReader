@@ -1,0 +1,26 @@
+1.用xml設計一個文字處理的config file
+<?xml version="1.0" encoding="utf-8" ?>
+<TxData>
+  <TxID size="6"/>
+  <Item size="20"/>
+  <Amount size="5" />
+  <UnitPrice size="7"/> 
+</TxData>
+
+2 讀入一個 file, 均為交易記錄
+
+123456Baseketball         000030000200
+....
+
+3.設計一個資料結構, 將每筆交易記錄, 放入該結構, List<TxData>
+
+4.循序印出各筆交易記錄, 格式如下:
+<Root>
+<TxData>
+  <TxID>123456</TxID>
+  <Item>Baseketball</Item>
+  <Amount>3</Amount>
+  <UnitPrice>200</UnitPrice>
+</TxData>
+....
+</Root>
